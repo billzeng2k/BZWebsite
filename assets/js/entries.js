@@ -156,33 +156,33 @@ const hobbies = [
     },
     {
         type: 'entry',
-        title: 'Pixel Art',
-        image: './images/pixel.png',
-        subtitle: 'Fall 2018',
-        description: 'Hello'
-    },
-    {
-        type: 'entry',
-        title: 'Vector Art',
+        title: 'Flat',
         image: './images/flat.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
+        title: 'Pixel',
+        image: './images/pixel.png',
+        subtitle: 'Fall 2018',
+        description: 'Hello'
+    },
+    {
+        type: 'entry',
         title: 'Low Poly',
-        image: './images/icon.png',
+        image: './images/low_poly.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'divider',
-        title: 'Hobbies',
+        title: 'Interests',
     },
     {
         type: 'entry',
         title: 'Board Games',
-        image: './images/icon.png',
+        image: './images/board_games.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
