@@ -32,7 +32,8 @@ const jobs = [
         image: './images/ava.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
-        blurb: 'Web Design Intern'
+        blurb: 'Web Design Intern',
+        href: 'https://www.avagrows.com'
     },
     {
         type: 'entry',
@@ -40,7 +41,8 @@ const jobs = [
         image: './images/triway.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
-        blurb: 'Programming and Math Teacher'
+        blurb: 'Programming and Math Teacher',
+        href: 'http://triwayeducation.com'
     },
     {
         type: 'entry',
@@ -48,7 +50,8 @@ const jobs = [
         image: './images/gps.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
-        blurb: 'Web Design Intern and Teacher'
+        blurb: 'Web Design Intern and Teacher',
+        href: 'https://giftedpeople.ca/'
     },
 ];
 

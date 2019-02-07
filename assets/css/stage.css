@@ -145,6 +145,10 @@
     border-radius: 10px;
 }
 
+.icon_container {
+    height: 3vw;
+}
+
 @media screen and (max-width: 480px) {
     .stage {
         width: 95%;
@@ -187,6 +191,10 @@
 
     .bar {
         height: 6vw;
+    }
+
+    .icon_container {
+        height: 7vw;
     }
 }
 
