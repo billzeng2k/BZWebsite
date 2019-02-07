@@ -67,8 +67,9 @@ a:link {
 
 @keyframes pop_up {
     0% { transform: scale(0) }
-    50% {transform: scale(1.1)}
-    70% {transform: scale(0.95)}
+    20% {transform: scale(1.1)}
+    35% {transform: scale(0.95)}
+    60% {transform: scale(1.03)}
     100% {transform: scale(1)}
 }
   
@@ -100,6 +101,7 @@ a:link {
     .entry_blurb {
         font-size: 4vw;
     }
+
     .entry_divider {
         width: 95%;
         font-size: 8vw;
@@ -113,5 +115,32 @@ a:link {
 
     .entry_text {
         font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .entry_title {
+        font-size: 4.5vw;
+        float: left;
+        padding-left: 1vw;
+    }
+
+    .entry_blurb {
+        font-size: 3vw;
+    }
+
+    .entry_divider {
+        width: 80%;
+        font-size: 7vw;
+    }
+    
+    .entry_subtitle {
+        color: grey;
+        font-size: 2vw;
+        margin-left: auto;
+    }
+
+    .entry_text {
+        font-size: 2vw;
     }
 }

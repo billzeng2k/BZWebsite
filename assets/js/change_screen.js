@@ -34,7 +34,7 @@ function changeTo(screen, str, color) {
     aug = augList[screen];
     bg2 = swap(bg1, bg1 = bg2);
     type(str);
-    if(curSection !== undefined)
+    if (curSection !== undefined)
         curSection.style.display = 'none';
     section[screen].style.display = 'block';
     curSection = section[screen];
@@ -98,25 +98,27 @@ function createEntry(image, title, subtitle, description, href, blurb) {
     entry_text.innerHTML = description;
     entry_href.href = href;
     entry_blurb.innerHTML = blurb;
-    if(image !== undefined)
+    if (image !== undefined)
         entry_header.appendChild(entry_image);
     entry_div.appendChild(entry_title);
-    if(blurb !== undefined)
+    if (blurb !== undefined)
         entry_div.append(entry_blurb);
     entry_header.appendChild(entry_div);
-    entry_header.appendChild(entry_subtitle);
+    if (subtitle !== undefined)
+        entry_header.appendChild(entry_subtitle);
     entry.appendChild(entry_header);
     entry.appendChild(entry_text);
-    if(href !== undefined) {
+    if (href !== undefined) {
+        entry_href.target = "_blank";
         entry_href.appendChild(entry);
         return entry_href;
     }
-    return entry; 
+    return entry;
 }
 
 function createDivider(title) {
     let divider = document.createElement("DIV");
     divider.classList.add('entry_divider');
     divider.innerHTML = title;
-    return divider; 
+    return divider;
 }

@@ -189,3 +189,9 @@
         height: 6vw;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .stage {
+        width: 75%;
+    }
+}

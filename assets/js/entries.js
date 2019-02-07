@@ -29,7 +29,7 @@ const jobs = [
     {
         type: 'entry',
         title: 'Ava Smart Gardens',
-        image: './images/icon.png',
+        image: './images/ava.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
         blurb: 'Web Design Intern'
@@ -37,7 +37,7 @@ const jobs = [
     {
         type: 'entry',
         title: 'Triway Education',
-        image: './images/icon.png',
+        image: './images/triway.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
         blurb: 'Programming and Math Teacher'
@@ -45,7 +45,7 @@ const jobs = [
     {
         type: 'entry',
         title: 'Gifted People Services',
-        image: './images/icon.png',
+        image: './images/gps.png',
         subtitle: 'Fall 2018',
         description: 'Hello',
         blurb: 'Web Design Intern and Teacher'
@@ -92,6 +92,36 @@ const education = [
         subtitle: 'Fall 2014 - Summer 2018',
         description: 'Hello',
     },
+    {
+        type: 'divider',
+        title: 'Skills',
+    },
+    {
+        type: 'entry',
+        title: 'Languages',
+        description: 'Hello',
+    },
+    {
+        type: 'entry',
+        title: 'Frameworks',
+        description: 'Hello',
+    },
+    {
+        type: 'divider',
+        title: 'Volunteering',
+    },
+    {
+        type: 'entry',
+        title: 'Cancer Society',
+        description: 'Hello',
+        image: './images/cancer_society.png'
+    },
+    {
+        type: 'entry',
+        title: 'Rotary Club',
+        description: 'Hello',
+        image: './images/rotary_club.png'
+    },
 ];
 
 const hobbies = [
@@ -102,28 +132,21 @@ const hobbies = [
     {
         type: 'entry',
         title: 'Tennis',
-        image: './images/icon.png',
+        image: './images/tennis.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Rock Climbing',
-        image: './images/icon.png',
-        subtitle: 'Fall 2018',
-        description: 'Hello'
-    },
-    {
-        type: 'entry',
-        title: 'Ultimate Frisbee',
-        image: './images/icon.png',
+        image: './images/rock.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Basketball',
-        image: './images/icon.png',
+        image: './images/basketball.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
@@ -134,14 +157,14 @@ const hobbies = [
     {
         type: 'entry',
         title: 'Pixel Art',
-        image: './images/icon.png',
+        image: './images/pixel.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Vector Art',
-        image: './images/icon.png',
+        image: './images/flat.png',
         subtitle: 'Fall 2018',
         description: 'Hello'
     },
