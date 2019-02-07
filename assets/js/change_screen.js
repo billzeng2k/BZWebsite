@@ -1,4 +1,4 @@
-var bg1, bg2, aug = null, augList = [], stageTxt, currentScreen = '', currentColor = 'black', section = [], curSection;
+var bg1, bg2, aug = null, augList = [], stageTxt, currentScreen = '', section = [], curSection;
 
 window.onload = function () {
     bg1 = document.getElementById('bg1');
@@ -51,7 +51,12 @@ function type(str) {
 }
 
 function reset() {
-    bg1.classList.remove('radial_gradient_' + currentColor);
+    bg1.classList.remove('radial_gradient_black');
+    bg1.classList.remove('radial_gradient_green');
+    bg1.classList.remove('radial_gradient_blue');
+    bg1.classList.remove('radial_gradient_orange');
+    bg1.classList.remove('radial_gradient_purple');
+    bg1.classList.remove('radial_gradient_brown');
     bg1.classList.remove('fade_out');
     bg2.classList.remove('fade_in');
 }
