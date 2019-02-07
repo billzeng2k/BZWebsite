@@ -193,7 +193,7 @@ const lol = [
     {
         type: 'entry',
         title: 'Thank You!',
-        image: './images/icon.png',
+        image: './images/face.png',
         subtitle: 'From now till forever <3',
         description: "Thanks for viewing my website!</br>I had only one goal when I started developing this page and it was to create something that represented me</br>With this website I believe I created something only I could think of, and I'm really proud of how this turned out :)</br>I had a lot of fun creating this website, and I hope you had a lot of fun exploring it</br>OK THATS ALL, CYA LATER ALLIGATOR"
     },
