@@ -11,7 +11,7 @@ const games = [
         type: 'entry',
         title: 'Shape Shooter',
         image: './images/shape_shooter.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Winter 2017',
         description: 'Hello',
         href: 'https://play.google.com/store/apps/details?id=com.BillZeng2k.Shapes'
     },
@@ -19,7 +19,7 @@ const games = [
         type: 'entry',
         title: 'Flastronauts',
         image: './images/flastronauts.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Summer 2017',
         description: 'Hello',
         href: 'http://ldjam.com/events/ludum-dare/39/flastronaut'
     },
@@ -30,7 +30,7 @@ const jobs = [
         type: 'entry',
         title: 'Ava Smart Gardens',
         image: './images/ava.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Winter 2017',
         description: 'Hello',
         blurb: 'Web Design Intern',
         href: 'https://www.avagrows.com'
@@ -39,7 +39,7 @@ const jobs = [
         type: 'entry',
         title: 'Triway Education',
         image: './images/triway.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Fall 2016 - Summer 2018',
         description: 'Hello',
         blurb: 'Programming and Math Teacher',
         href: 'http://triwayeducation.com'
@@ -48,7 +48,7 @@ const jobs = [
         type: 'entry',
         title: 'Gifted People Services',
         image: './images/gps.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Summer 2017',
         description: 'Hello',
         blurb: 'Web Design Intern and Teacher',
         href: 'https://giftedpeople.ca/'
@@ -116,6 +116,7 @@ const education = [
     {
         type: 'entry',
         title: 'Cancer Society',
+        subtitle: 'Summer 2014',
         description: 'Hello',
         image: './images/cancer_society.png'
     },
@@ -123,6 +124,7 @@ const education = [
         type: 'entry',
         title: 'Rotary Club',
         description: 'Hello',
+        subtitle: 'Fall 2017',
         image: './images/rotary_club.png'
     },
 ];
@@ -136,21 +138,21 @@ const hobbies = [
         type: 'entry',
         title: 'Tennis',
         image: './images/tennis.png',
-        subtitle: 'Fall 2018',
+        subtitle: '2008 - 2015',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Rock Climbing',
         image: './images/rock.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Fall 2016 - Present',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Basketball',
         image: './images/basketball.png',
-        subtitle: 'Fall 2018',
+        subtitle: 'Winter 2019 - Present',
         description: 'Hello'
     },
     {
@@ -161,21 +163,18 @@ const hobbies = [
         type: 'entry',
         title: 'Flat',
         image: './images/flat.png',
-        subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Pixel',
         image: './images/pixel.png',
-        subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
         type: 'entry',
         title: 'Low Poly',
         image: './images/low_poly.png',
-        subtitle: 'Fall 2018',
         description: 'Hello'
     },
     {
@@ -186,7 +185,6 @@ const hobbies = [
         type: 'entry',
         title: 'Board Games',
         image: './images/board_games.png',
-        subtitle: 'Fall 2018',
         description: 'Hello'
     },
 ];
@@ -197,6 +195,6 @@ const lol = [
         title: 'Thank You!',
         image: './images/icon.png',
         subtitle: 'From now till forever <3',
-        description: "Thanks for viewing my webpage!</br>I had only one goal when I started developing this page and it was to create something that represented me</br>With this website I believe I created something only I could think of, and I'm really proud of how this turned out :)</br>I had a lot of fun creating this website, and I hope you had a lot of fun exploring it</br>OK THATS ALL, CYA LATER ALLIGATOR"
+        description: "Thanks for viewing my website!</br>I had only one goal when I started developing this page and it was to create something that represented me</br>With this website I believe I created something only I could think of, and I'm really proud of how this turned out :)</br>I had a lot of fun creating this website, and I hope you had a lot of fun exploring it</br>OK THATS ALL, CYA LATER ALLIGATOR"
     },
 ];
