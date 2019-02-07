@@ -39,6 +39,7 @@ a:link {
     font-size: 4.5vw;
     padding-left: 1vw;
     color: black;
+    text-align: left;
 }
 
 .entry_blurb {

@@ -60,7 +60,7 @@ const education = [
     {
         type: 'entry',
         title: 'Canadian Computing Competition',
-        image: './images/icon.png',
+        image: './images/silver.png',
         subtitle: 'Summer 2018',
         description: 'Hello',
         blurb: 'Silver Medalist'
@@ -68,7 +68,7 @@ const education = [
     {
         type: 'entry',
         title: 'Euclid Math Contest',
-        image: './images/icon.png',
+        image: './images/honour_roll.png',
         subtitle: 'Summer 2018',
         description: 'Hello',
         blurb: 'Honour Roll'
@@ -80,16 +80,16 @@ const education = [
     {
         type: 'entry',
         title: 'University of Waterloo',
-        image: './images/icon.png',
-        subtitle: 'Summer 2018',
+        image: './images/waterloo.png',
+        subtitle: 'Fall 2018 - Present',
         description: 'Hello',
         blurb: 'Bachelors of Computer Science'
     },
     {
         type: 'entry',
         title: 'Unionville High School',
-        image: './images/icon.png',
-        subtitle: 'Summer 2018',
+        image: './images/uhs.png',
+        subtitle: 'Fall 2014 - Summer 2018',
         description: 'Hello',
     },
 ];
@@ -123,6 +123,31 @@ const hobbies = [
     {
         type: 'entry',
         title: 'Basketball',
+        image: './images/icon.png',
+        subtitle: 'Fall 2018',
+        description: 'Hello'
+    },
+    {
+        type: 'divider',
+        title: 'Art',
+    },
+    {
+        type: 'entry',
+        title: 'Pixel Art',
+        image: './images/icon.png',
+        subtitle: 'Fall 2018',
+        description: 'Hello'
+    },
+    {
+        type: 'entry',
+        title: 'Vector Art',
+        image: './images/icon.png',
+        subtitle: 'Fall 2018',
+        description: 'Hello'
+    },
+    {
+        type: 'entry',
+        title: 'Low Poly',
         image: './images/icon.png',
         subtitle: 'Fall 2018',
         description: 'Hello'

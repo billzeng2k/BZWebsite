@@ -19,7 +19,7 @@
 }
 
 .radial_gradient_brown {
-    background-image: radial-gradient(circle at 50% 100%,#BCAAA4, #4E342E);
+    background-image: radial-gradient(circle at 50% 100%,#f64f59, #c471ed, #12c2e9 );
 }
 
 .background {
