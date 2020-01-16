@@ -19,6 +19,15 @@ const games = [
     },
     {
         type: 'entry',
+        title: 'Bubbly',
+        image: './images/',
+        subtitle: 'Summer 2019',
+        description: '<p>An interactive musical bubble wall that responds to user input!</p><p>Placed top 10</p>',
+        href: 'https://github.com/billzeng2k/bubble-wall',
+        blurb: 'Hack the 6ix'
+    },
+    {
+        type: 'entry',
         title: 'Shape Shooter',
         image: './images/shape_shooter.png',
         subtitle: 'Winter 2017',
@@ -31,21 +40,30 @@ const games = [
 const jobs = [
     {
         type: 'entry',
-        title: 'Ava Smart Gardens',
-        image: './images/ava.png',
-        subtitle: 'Winter 2017',
-        description: '<p>Prototyped a web app that enabled users to monitor plant growth and fine-tune garden conditions via smart-garden sensors</p><p>The web app was implemented with NodeJs that connects to a data feed from Firebase</p>',
-        blurb: 'Web Design Intern',
-        href: 'https://www.avagrows.com'
+        title: 'Kitchenmate',
+        image: './images/kitchenmate.png',
+        subtitle: 'Summer 2019',
+        description: '<p>Implemented supply chain optimization service to drive the company’s ingredient purchasing decisions, generating positive net margins on each product</p><p>Created database migration diff tool and automated backup system, preventing data loss and improving developer velocity</p><p>Bootstrapped a route navigation system for drivers with real time delivery notifications sent to the company and customers</p><p>Designed and built the company website (kitchenmate.com)</p>',
+        blurb: 'Software Engineer',
+        href: 'https://www.kitchenmate.com/'
     },
     {
         type: 'entry',
         title: 'Triway Education',
         image: './images/triway.png',
         subtitle: 'Fall 2016 - Summer 2018',
-        description: '<p>Taught over 30 students the fundamentals of programming and web design primarily using Java and HTML</p><p>Lead the robotics team to the provincial Vex Robotics competition</p>',
+        description: '<p>Taught over 30 students graph theory, dynammic programming and data structures</p><p>Lead the robotics team to the provincial Vex Robotics competition</p>',
         blurb: 'Programming and Math Teacher',
         href: 'http://triwayeducation.com'
+    },
+    {
+        type: 'entry',
+        title: 'Ava Smart Gardens',
+        image: './images/ava.png',
+        subtitle: 'Winter 2017',
+        description: '<p>Prototyped a web app that enabled users to monitor plant growth and fine-tune garden conditions via smart-garden sensors</p><p>The web app was implemented with NodeJs that connects to a data feed from Firebase</p>',
+        blurb: 'Web Design Intern',
+        href: 'https://www.avagrows.com'
     },
     {
         type: 'entry',
@@ -105,17 +123,12 @@ const education = [
     {
         type: 'entry',
         title: 'Languages',
-        description: '<p>C++, C#, Java, Javascript, PHP, HTML, CSS, SQL, Dart</p>',
+        description: '<p>C++, C#, Java, Javascript, Python, HTML, CSS, SQL</p>',
     },
     {
         type: 'entry',
         title: 'Frameworks',
-        description: 'ReactJs, NodeJs, Instant Games API, Firebase, AWS',
-    },
-    {
-        type: 'entry',
-        title: 'Development Tools',
-        description: 'Unity, Git, Vim, Android Studio, Bash',
+        description: 'ReactJs, NodeJs, GraphQL, Angular, Bootstrap, AWS',
     },
     {
         type: 'divider',
