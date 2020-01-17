@@ -20,7 +20,7 @@ const games = [
     {
         type: 'entry',
         title: 'Bubbly',
-        image: './images/',
+        image: './images/bubble_wall.png',
         subtitle: 'Summer 2019',
         description: '<p>An interactive musical bubble wall that responds to user input!</p><p>Placed top 10</p>',
         href: 'https://github.com/billzeng2k/bubble-wall',
