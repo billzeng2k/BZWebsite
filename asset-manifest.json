@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BZWebsite/static/css/main.4566c56e.chunk.css",
+    "main.js": "/BZWebsite/static/js/main.0a9c6353.chunk.js",
+    "main.js.map": "/BZWebsite/static/js/main.0a9c6353.chunk.js.map",
+    "runtime-main.js": "/BZWebsite/static/js/runtime-main.840b967e.js",
+    "runtime-main.js.map": "/BZWebsite/static/js/runtime-main.840b967e.js.map",
+    "static/js/2.4fdfc884.chunk.js": "/BZWebsite/static/js/2.4fdfc884.chunk.js",
+    "static/js/2.4fdfc884.chunk.js.map": "/BZWebsite/static/js/2.4fdfc884.chunk.js.map",
+    "index.html": "/BZWebsite/index.html",
+    "precache-manifest.797850feb2c5a8a90c58db7171095ab9.js": "/BZWebsite/precache-manifest.797850feb2c5a8a90c58db7171095ab9.js",
+    "service-worker.js": "/BZWebsite/service-worker.js",
+    "static/css/main.4566c56e.chunk.css.map": "/BZWebsite/static/css/main.4566c56e.chunk.css.map",
+    "static/js/2.4fdfc884.chunk.js.LICENSE.txt": "/BZWebsite/static/js/2.4fdfc884.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/BZWebsite/static/media/PierSans-Regular.239bd637.otf",
+    "static/media/Resume.pdf": "/BZWebsite/static/media/Resume.a6213b30.pdf",
+    "static/media/Kitchenmate.css": "/BZWebsite/static/media/kitchenmate.f23f03f1.jpg",
+    "static/media/Intro.css": "/BZWebsite/static/media/splash.4163bcae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.840b967e.js",
+    "static/js/2.4fdfc884.chunk.js",
+    "static/css/main.4566c56e.chunk.css",
+    "static/js/main.0a9c6353.chunk.js"
+  ]
+}
