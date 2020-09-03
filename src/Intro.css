@@ -1,0 +1,49 @@
+@media screen and (min-width: 600px) {
+  .intro .icon-container .icon {
+    transition: transform 0.5s;
+    transform: scale(1);
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro .icon-container .icon {
+    transition: transform 0.5s;
+    transform: scale(1);
+    font-size: 5vw;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  background-image: url('res/splash.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3;
+}
+
+.intro #tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.intro .icon-container {
+  z-index: 1;
+  margin-top: 3vw;
+}
+
+.intro .icon-container .icon {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: white;
+}
+
+.intro .icon-container .icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,12 @@
+.kitchenmate {
+  display: flex;
+  flex-direction: column;
+  background-image: url('res/kitchenmate.jpg');
+  background-size: cover;
+  background-position-x: 25%;
+  background-position-y: bottom;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 1.3;
+}
